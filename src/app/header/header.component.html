@@ -1,0 +1,7 @@
+<div class="container-fluid zero_padding">
+  <div class="col-12 header-bg zero_padding">
+    <div *ngFor="let tabName of tabsNames" class="tabs col-3" routerLink="/{{tabName}}" routerLinkActive="active">
+      <span class="text"> {{tabName}}</span>
+    </div>
+  </div>
+</div>
